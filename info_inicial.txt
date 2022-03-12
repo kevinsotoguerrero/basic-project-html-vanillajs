@@ -1,2 +1,0 @@
-git init//en la raiz del proyecto para inicializar git
-git remote add origin https://github.com/kevinsotoguerrero/estudiando_js.git //para establecer el enlace al repositorio en github
