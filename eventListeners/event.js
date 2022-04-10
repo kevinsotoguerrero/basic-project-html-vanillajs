@@ -1,4 +1,6 @@
 document.addEventListener("keydown", dibujarConTeclado);
+document.addEventListener("mousemove", dibujarConCtrl);
+document.addEventListener("mousemove", dibujarConClick);
 var areaDibujo = document.getElementById("areaDibujo").getContext("2d");
 var ancho = document.getElementById("areaDibujo").width;
 var alto = document.getElementById("areaDibujo").height;
@@ -12,9 +14,6 @@ var teclas = {
   RIGHT: 39,
   DOWN: 40,
 };
-
-console.log(posicionX);
-console.log(posicionY);
 
 function dibujarConTeclado(evento) {
   switch (evento.keyCode) {
@@ -80,4 +79,20 @@ function makeLine(lienzo, color, xi, yi, xf, yf) {
   lienzo.lineTo(xf, yf);
   lienzo.stroke();
   lienzo.closePath();
+}
+
+function dibujarConCtrl(evento){
+    if(evento.ctrlKey===true){
+        if(evento.target.id==="areaDibujo"){
+            makeLine(areaDibujo, color, evento.offsetX, evento.offsetY, evento.offsetX+1, evento.offsetY+1);
+        }
+    }
+}
+
+function dibujarConClick(evento){
+    if(evento.buttons===1){
+        if(evento.target.id==="areaDibujo"){
+            makeLine(areaDibujo, color, evento.offsetX, evento.offsetY, evento.offsetX+1, evento.offsetY+1);
+        }
+    }
 }
