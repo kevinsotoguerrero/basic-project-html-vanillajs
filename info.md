@@ -5,3 +5,8 @@
 - Document: tiene cada unos de los elementos de la pagina web
 
 DOM (document object model): arbol para interactuar con el document.
+
+# Diferencias entre array y objeto
+
+- El array tiene funciones propias que no puede usar un objeto (ej. push)
+- Se diferencia con Array.isArray()
