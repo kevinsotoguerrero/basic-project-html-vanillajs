@@ -24,6 +24,8 @@ Al correr un servidor con express en el area local con la ip se puede acceder de
 
 # Modelo cliente/servidor
 ## Metodos
+Forma en la que se realiza la peticion
+
 ### GET
 Enviar a través de la URL al servidor unas variables a procesar: www.ejemplo.com/archivo.php?varible=texto&varible=numero
 ### POST
