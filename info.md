@@ -35,3 +35,39 @@ Cambio sin cambiar la URL, asynchronous
 
 Conjunto de conocimientos
 Ejemplo: LAMP (Linux, Apache, Mysql, PHP)
+
+--------------------------
+
+# Framework
+Conjunto de librerias, reglas, herramientas para la construccion de un producto digital. Garantiza la calidad por una estructura de trabajo bien definida
+
+# Libreria
+Codigo escrito por otra persona que hace alguna funcionalidad por nosotros. Nos ayuda a resolver un problema especificoy tiene un proposito concreto
+
+## Frameworks para CSS
+
+- Bootstrap
+- Foundation
+- Tailwind
+
+# API (Aplication program interface)
+Parte del backend para comunicarse con el front 
+Endpoint=Route=Path
+
+## API SOAP
+Pasa la informacion en XML
+
+## API REST
+Pasa la informacion en JSON
+
+# The Cloud
+
+## IaaS (Infrastructure)
+
+Da la posibilidad tener el manejo de la CPU, RAM, SSD. Versiones de programas que se corren en el servidor (AWS, azure, digital ocean(la mas economica))
+## PaaS (Platform)
+
+Para hacer el deploy en el servidor sin preocuparse de CPU, RAM, SSD.
+## SaaS (Software)
+
+Solo el SW, casi nunca nada de codigo. (Google docs, Wordpress)
